@@ -21,8 +21,8 @@ end
 
 
 def find_item(array, item)
-  for index in array
-      return true   if index = item
+  for i in array
+      return true   if i == item
   end
   return false
-  end
+end
