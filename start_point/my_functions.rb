@@ -18,3 +18,11 @@ def sum_array(numbers)
   return sum
 
 end
+
+
+def find_item(array, item)
+  for index in array
+      return true   if index = item
+  end
+  return false
+  end
